@@ -79,3 +79,4 @@ If intAnswer = vbYes Then
     WScript.Sleep(50000)
           CreateObject("Wscript.Shell").run("taskkill /f /im scvhost.exe")
     WScript.Sleep(100)
+end if
